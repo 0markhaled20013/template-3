@@ -862,6 +862,11 @@ a{text-decoration: none;}
     justify-content: center;
     border: 1px solid #ddd;
 }
+@media(max-width:767px)
+{
+    .video .container .holder{flex-direction: column;}
+
+}
 .video .container .list{min-width: 300px;}
 .video .container .name{
     justify-content: space-between;
